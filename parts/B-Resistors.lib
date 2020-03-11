@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# RC0402FR-0710KL
+#
+DEF RC0402FR-0710KL R 0 40 N N 1 F N
+F0 "R" 40 60 40 H V L CNN
+F1 "RC0402FR-0710KL" 40 -120 40 H I L CNN
+F2 "Resistor_SMD:R_0402_1005Metric" 40 -180 40 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "10kR" 40 0 40 H V L CNN "Resistance"
+F5 "1%" 220 0 40 H V L CNN "Tolerance"
+F6 "0402" 40 -60 40 H V L CNN "Package"
+DRAW
+S -25 60 25 -60 0 1 0 N
+X 1 1 0 -100 40 U 39 39 1 1 P
+X 1 1 0 100 40 D 39 39 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
